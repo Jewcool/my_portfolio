@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.nav_lisy {
+.nav_list {
   display: flex;
   align-items: center;
   list-style: none;
