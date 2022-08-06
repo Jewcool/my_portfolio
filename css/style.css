@@ -80,3 +80,72 @@ body {
 .cv-icon {
   margin-right: 4px; 
 }
+.section_heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+}
+.card {
+  max-width: 400px;
+}
+.card_text_wrapper {
+  padding: 16px;
+}
+.card_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #BF7506;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.card_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.tags {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.tag {
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #211B12;
+  background: #FFFFFF;
+  border: 1px solid #DD9C3C;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.card_buttons {
+  display: flex;
+  align-items: center;
+}
+.card_button {
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  text-decoration: none; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.card_button_icon {
+  margin-right: 4px;
+}
+
+
+
+
