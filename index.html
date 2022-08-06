@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Артур Тернер - сайт портфолио</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar">
+  <div class="navbar container">
     <img src="img/logo.svg" alt="Logo">
     <nav class="navigation">
       <ul class="nav_list">
@@ -21,6 +22,50 @@
         <li class="nav_item"><a href="№" class="nav_link">Связаться</a></li>
       </ul>
     </nav>
-  </div>
+  </div> 
+  <!-- ./navbar -->
+
+  <header class="header container">
+    <img src="img/avatar.png" alt="Артур" class="header_photo">
+    <!-- /.header_photo -->
+    <div class="header_text">
+      <strong class="header_strong">Привет 👋</strong>
+      <h1 class="header_heading">
+        <span class="header_primary">Я фронтенд-разработчик и веб-дизайнер</span> <br /> 
+        Меня зовут Артур Тернер и я делаю сайты для <br /> людей и компаний
+      </h1>
+      <div class="header_links">
+        <ul class="social_list">
+          <li class="social_item">
+            <a href="" class="social_link"><img src="img/icons/linkedin.svg" alt="linkedin" class="social_logo">
+            </a>
+          </li>
+          <li class="social_item">
+            <a href="" class="social_link"><img src="img/icons/twitter.svg" alt="twitter" class="social_logo">
+            </a>
+          </li>
+          <li class="social_item">
+            <a href="" class="social_link"><img src="img/icons/github.svg" alt="github" class="social_logo">
+            </a>
+          </li>
+          <li class="social_item">
+            <a href="" class="social_link"><img src="img/icons/stackoverflow.svg" alt="stackoverflow" class="social_logo">
+            </a>
+          </li>
+          <li class="social_item">
+            <a href="" class="social_link"><img src="img/icons/youtube.svg" alt="youtube" class="social_logo">
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="cv_download" download>
+          <img src="img/download.svg" alt="download" class="cv_icon">
+          <span class="cv_text">Скачать резюме</span>
+        </a>
+      </div>
+      <!-- /.header_links -->
+    </div>
+    <!-- /.header_text -->
+  </header>
+  <!-- /.header -->
 </body>
 </html>
