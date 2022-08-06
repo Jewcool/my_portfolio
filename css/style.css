@@ -89,6 +89,7 @@ body {
 }
 .card {
   max-width: 400px;
+  margin-bottom: 40px;
 }
 .card_text_wrapper {
   padding: 16px;
@@ -128,6 +129,11 @@ body {
   border-radius: 4px;
   margin-right: 4px;
 }
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .card_buttons {
   display: flex;
   align-items: center;
@@ -141,6 +147,8 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #211B12;
+  border-bottom: 2px solid #BF7506;
+  margin-right: 25px;
 }
 .card_button_icon {
   margin-right: 4px;
