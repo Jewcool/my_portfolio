@@ -169,15 +169,15 @@
     <form action="" class="form">
       <div class="input_group">
         <label for="userName" class="input_label">Имя</label>
-        <input id="userName" type="text" class="input" />
+        <input id="userName" name="client_name" type="text" class="input" />
       </div>
       <div class="input_group">
         <label for="userEmail" class="input_label">Email</label>
-        <input id="userEmail" type="text" class="input" />
+        <input id="userEmail" name="client_email" type="text" class="input" />
       </div>
       <div class="input_group">
         <label for="userMessage" class="input_label">Сообщение</label>
-        <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+        <textarea id="userMessage" name="client_message" cols="30" rows="30" class="input textarea"></textarea>
       </div>
       <!-- /.input_group -->
        <div class="button_group">
@@ -192,5 +192,6 @@
   <footer class="footer">
     <img src="img/love.png" alt="Сделано с ❤️ в Казани" class="footer_img">
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
