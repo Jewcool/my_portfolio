@@ -16,16 +16,16 @@
     <img src="img/logo.svg" alt="Logo">
     <nav class="navigation">
       <ul class="nav_list">
-        <li class="nav_item"><a href="№" class="nav_link active">Главная</a></li>
-        <li class="nav_item"><a href="№" class="nav_link">Проекты</a></li>
-        <li class="nav_item"><a href="№" class="nav_link">Обо мне</a></li>
-        <li class="nav_item"><a href="№" class="nav_link">Связаться</a></li>
+        <li class="nav_item"><a href="#main" class="nav_link active">Главная</a></li>
+        <li class="nav_item"><a href="#portfolio" class="nav_link">Проекты</a></li>
+        <li class="nav_item"><a href="#developer" class="nav_link">Обо мне</a></li>
+        <li class="nav_item"><a href="#feedback" class="nav_link">Связаться</a></li>
       </ul>
     </nav>
   </div> 
   <!-- ./navbar -->
 
-  <header class="header container">
+  <header class="header container" id="main"> 
     <img src="img/avatar.png" alt="Артур" class="header_photo">
     <!-- /.header_photo -->
     <div class="header_text">
@@ -57,7 +57,7 @@
             </a>
           </li>
         </ul>
-        <a href="#" class="cv_download" download>
+        <a href="cv.pdf" class="cv_download" download>
           <img src="img/download.svg" alt="download" class="cv_icon">
           <span class="cv_text">Скачать резюме</span>
         </a>
@@ -67,7 +67,7 @@
     <!-- /.header_text -->
   </header>
   <!-- /.header -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <h2 class="section_heading">Последние проекты</h2>
       <div class="cards">
@@ -130,7 +130,7 @@
     <!-- /.container -->
   </section>
   <!-- /.portfolio -->
-  <section class="developer container">
+  <section class="developer container" id="developer">
     <img src="img/developer-photo.jpg" alt="Артур Тернер" class="developer_photo" />
     <div class="developer_about">
       <span class="developer_hello">Рад вас видеть</span>
@@ -147,7 +147,7 @@
     </div>
   </section>
   <!-- /.developer container -->
-  <section class="skills container">
+  <section class="skills container" id="skills">
     <h2 class="skills_title">Работаю с разными языками и инструментами</h2>
     <ul class="tags">
             <li class="tags_item"><a href="#" class="tag">HTML</a></li>
@@ -162,7 +162,9 @@
           </ul>
   </section>
   <!-- /.skills -->
-  <section class="feedback form-container">
+  <section class="feedback" id="feedback">
+    <img src="img/hand.png" alt="hand" class="feedback_hand">
+    <div class="form-container">
     <h2 class="feedback_title">Готов обсудить проект...</h2>
     <form action="" class="form">
       <div class="input_group">
@@ -185,6 +187,10 @@
         </button>
        </div>
     </form>
+    </div>
   </section>
+  <footer class="footer">
+    <img src="img/love.png" alt="Сделано с ❤️ в Казани" class="footer_img">
+  </footer>
 </body>
 </html>
